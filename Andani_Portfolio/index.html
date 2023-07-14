@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/46cbf6dc64.js" crossorigin="anonymous"></script>
+    <title>Andani Website Portfolio</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#" class="logo"><span>Andani..</span></a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, My name is <span> Andani</span></h1>
+          <h3>Front End Developer</h3>
+          <p>
+            I have a National Diploma in Computer Systems<br />
+            Engineering from Tshwane University of Technology
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" >
+      <div class="container">
+      
+      <div class="row">
+      
+          <div class="about-col-1">
+      
+              <img src="aboutpic.png" width="400" height="600">
+          </div>
+          <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1><br><br>
+              <p>Computer Systems Engineering graduate with an unwavering passion for technology and an insatiable thirst for learning. Equipped with a solid academic background and a natural inclination to stay updated with the latest advancements in the field, I am dedicated to continuously upskilling myself to remain at the forefront of technological innovation. With a firm grasp on computer systems and networks, coupled with proficiency in programming languages such as Java, C++, and Python, I am well-prepared to tackle complex challenges. Driven by curiosity, I actively seek out opportunities to expand my knowledge and expertise through independent projects, online courses, and industry events. Committed to personal growth and staying adaptable in the rapidly evolving tech landscape, I am eager to contribute to cutting-edge projects that push the boundaries of what is possible.</p><br><br>
+          <div class="tab-titles">
+      
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('exprience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+      
+          </div>
+      
+          <div class="tab-content active-tab" id="skills">
+      
+              <ul>
+                  <li><span>Web Development</span><br>HTML<br>CSS<br>Javascript</li>
+                  <li><span>Programming languages</span><br>C++<br>Python<br>Java<br>SQL</li>
+                  
+      
+              </ul>
+          </div>
+      
+          <div class="tab-content" id="exprience">
+      
+              <ul>
+                  <li><span>CapaCiTi</span><br>Systems Developer Intern</li>
+                  <li><span>InvesthoodIT</span><br>Junior Software Developer Intern</li>
+                  
+                  
+      
+              </ul>
+          </div>
+      
+          <div class="tab-content" id="education">
+      
+              <ul>
+                  <li><span>2016 - 2020</span><br>Diploma in Computer Systems Engineering at TUT</li>
+                  <li><span>2010 - 2015</span><br>National senior certificate at Thengwe High School</li>
+                  
+                  
+      
+      
+              </ul>
+          </div>
+          
+          
+          </div>
+      </div>
+      
+      </div>
+      </div>
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <br /><br />
+
+    <div class="work-list">
+      <div class="work">
+        <img src="mzamo.PNG" alt="" />
+        <div class="layer">
+          <h3>Mzamontsha primary school website</h3>
+          <p>
+            As it frequently serves as a person's first point of contact with a school, the school website is crucial for creating a positive first impression. As a result, the school website influences your institution's reputation and general image, which may result in more students applying.
+          </p>
+          <a href="https://symphonious-fudge-fafa73.netlify.app/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="smarthome.jpg" alt="" />
+        <div class="layer">
+          <h3>smart home App</h3>
+          <p>
+            Smart home automation and security systems are innovative technologies that provide homeowners with convenience, comfort, and enhanced security. These systems utilize internet connectivity, sensors, and intelligent algorithms to automate various aspects of home management and enhance the safety of the living environment.
+          </p>
+          <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="calculator.jpg" alt="" />
+        <div class="layer">
+          <h3>Financial calculator App</h3>
+          <p>
+            A financial calculator is a specialized tool or software designed to perform various calculations related to finance and investment. It helps individuals and professionals analyze financial data, make informed decisions, and solve complex financial problems.
+          </p>
+          <a href="https://github.com/charityandani?tab=repositories"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div id="contact">
+
+  <div class="container-contact">
+      <div class="row">
+          <div class="contact-left">
+  
+             <h1 class="sub-title">Contact me</h1> 
+             <p> <i class="fa-sharp fa-solid fa-location-dot"></i>128 Da Gama Street, Brooklyn,Cape Town,7405</p>
+             <p><i class="fa-solid fa-envelope"></i>charityandani.1@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i>0815053839 / 0810630405</p>
+             
+  
+  
+            
+             <div class="social-icons">
+  
+              <a href="https://www.linkedin.com/in/andani-rananga-439085162/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/charityandani?tab=repositories"><i class="fab fa-github"></i></a>
+              
+             </div>
+             <a href="andaniCv.pdf" download class="btn">Download CV</a>
+          </div>
+          <div class="contact-right">
+  
+              <form action="https://formspree.io/f/mbjvjwqe" method="post">
+                  <input type="text" name="Name" placeholder="your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="copyright">
+
+    <p>copyright @ Andani Charity Rananga<i class="fa-solid fa-heart"></i> My Personal Online Portfolio.</p>
+
+  </div>
+        </div>
+          <script>
+
+
+
+            var sidemeu=document.getElementById("sidemenu");
+
+            function openmenu()
+            {
+              sidemeu.style.right="0";
+            }
+
+            function closemenu()
+            {
+              sidemeu.style.right="-200px";
+            }
+
+
+
+            
+
+              var tablinks=document.getElementsByClassName("tab-links");
+              var tabcontent=document.getElementsByClassName("tab-content");
+function opentab(tabname){
+              for(tablink of tablinks){
+
+                  tablink.classList.remove("active-link");
+              }
+
+              
+              for(tabcontents of tabcontent){
+
+                  tabcontents.classList.remove("active-tab");
+              }
+
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+          }
+          </script>   
+
+          
+  </body>
+</html>
